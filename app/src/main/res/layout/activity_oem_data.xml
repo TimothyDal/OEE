@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".oem_data">
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:text="IDLE TIME"
+        android:textAlignment="textStart"
+        android:textColor="#2A3780"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/dt2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv12"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:text="QUALITY RATE"
+        android:textAlignment="textStart"
+        android:textColor="#2A3780"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/dt12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv9"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:text="OK OUTPUT"
+        android:textAlignment="textStart"
+        android:textColor="#2A3780"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/dt9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:text="AVAILABLE TIME"
+        android:textAlignment="textStart"
+        android:textColor="#2A3780"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/dt4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv15"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:text="1st HOUR O/P %"
+        android:textAlignment="textStart"
+        android:textColor="#2A3780"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/dt15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/dt14"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:background="#728E8686"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.878" />
+
+    <TextView
+        android:id="@+id/dt5"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:background="#4CAF50"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:text="TOTAL NON UTIL TIME"
+        android:textAlignment="textStart"
+        android:textColor="#2A3780"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/dt3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/dt11"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:background="#728E8686"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.717" />
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:text="PERFORMANCE EFFICIENCY"
+        android:textAlignment="textStart"
+        android:textColor="#2A3780"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/dt8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:text="AVAILABLITY"
+        android:textAlignment="textStart"
+        android:textColor="#2A3780"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/dt5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/dt12"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:background="#4CAF50"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.771" />
+
+    <TextView
+        android:id="@+id/dt7"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:background="#728E8686"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.495" />
+
+    <TextView
+        android:id="@+id/tv10"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:text="SCRAP"
+        android:textAlignment="textStart"
+        android:textColor="#2A3780"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/dt10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv13"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:text="OEE"
+        android:textAlignment="textStart"
+        android:textColor="#2A3780"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/dt13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/dt4"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:background="#728E8686"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.338" />
+
+    <TextView
+        android:id="@+id/dt3"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:background="#728E8686"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.287" />
+
+    <TextView
+        android:id="@+id/dt6"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:background="#728E8686"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.443" />
+
+    <TextView
+        android:id="@+id/dt10"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:background="#728E8686"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663" />
+
+    <TextView
+        android:id="@+id/dt9"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:background="#728E8686"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61" />
+
+    <TextView
+        android:id="@+id/dt2"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:background="#728E8686"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.233" />
+
+    <TextView
+        android:id="@+id/tv11"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:text="TOTAL O/P"
+        android:textAlignment="textStart"
+        android:textColor="#2A3780"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/dt11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/dt8"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:background="#4CAF50"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.553" />
+
+    <TextView
+        android:id="@+id/tv14"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:text="1st HOUR O/P"
+        android:textAlignment="textStart"
+        android:textColor="#2A3780"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/dt14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:text="STD O/P"
+        android:textAlignment="textStart"
+        android:textColor="#2A3780"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/dt7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/dt13"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:background="#FFEB3B"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.823" />
+
+    <TextView
+        android:id="@+id/dt1"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:background="#728E8686"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:text="CONTROL TIME"
+        android:textAlignment="textStart"
+        android:textColor="#2A3780"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/dt1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:text="TOTAL O/P"
+        android:textAlignment="textStart"
+        android:textColor="#2A3780"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/dt6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/dt15"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:background="#728E8686"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.931" />
+
+    <TextView
+        android:id="@+id/tv0"
+        android:layout_width="482dp"
+        android:layout_height="72dp"
+        android:background="#2A3780"
+        android:fontFamily="@font/bungee"
+        android:gravity="center_vertical"
+        android:text="OEE"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002" />
+
+    <Button
+        android:id="@+id/btnBk"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ar"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.035"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="226dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="399dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
